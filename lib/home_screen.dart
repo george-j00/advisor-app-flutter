@@ -125,7 +125,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void getImagesFromUnsplash()async{
-    var url = 'https://api.unsplash.com/search/photos?per_page=30&query=nature&order_by=relevant&client_id=$accessKey';
+    var url = 'https://api.unsplash.com/search/photos?per_page=30&query=nature&order_by=relevant&client_id=E1ThU83eZTgumlA7vGjQbzHz09w4J3Vj0QOdp2FdKAk';
     var uri = Uri.parse(url);
     var response = await http.get(uri);
     print(response.statusCode);
